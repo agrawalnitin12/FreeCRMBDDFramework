@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.071412">
+    <testcase classname="Test tagged hooks" name="This is first case" time="0.056609">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given This is the first step................................................undefined
+When this is the second step................................................undefined
+Then this is the third step.................................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Test tagged hooks" name="This is second case" time="0.007762">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given This is the first step................................................undefined
+When this is the second step................................................undefined
+Then this is the third step.................................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Test tagged hooks" name="This is third case" time="0.007041">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given This is the first step................................................undefined
+When this is the second step................................................undefined
+Then this is the third step.................................................undefined
+]]>
+        </failure>
+    </testcase>
+</testsuite>
